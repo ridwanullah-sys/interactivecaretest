@@ -16,6 +16,12 @@ export class OrdersController {
       quantities: 10,
       payment_information: 'This is a medical product',
     },
+    {
+      user_id: 1,
+      product_id: 1818,
+      quantities: 90,
+      payment_information: 'This is a pencil',
+    },
   ];
 
   @Get()
